@@ -1,0 +1,558 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>BetPress - plugin for WordPress</title>
+	
+	<meta name="description" content="A game where users predict sports games (and not only) by placing betting slips.">
+	<meta name="author" content="WebAble">
+	<meta name="copyright" content="WebAble">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-11-25T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	<link rel="stylesheet" href="assets/css/custom.css" media="screen">
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/cufon.js"></script><script src="assets/js/font.js"></script><script>Cufon.replace("h1, h2, h3, h4, h5, h6");</script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='450',easing='easeOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/logo-wa.png);}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf;
+		  background-color: #006673;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;http://static.revaxarts-themes.com/noise.gif}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-betpress">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#introduction" title="Introduction">Introduction</a></li>
+			<li><a href="#how_betpress_works" title="How BetPress works">How BetPress works</a></li>
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#start_guide" title="Start guide">Start guide</a></li>
+			<li><a href="#admin_pages" title="Admin pages">Admin pages</a></li>
+			<li><a href="#shortcodes" title="Shortcodes">Shortcodes</a></li>
+			<li><a href="#widgets" title="Widgets">Widgets</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright WebAble 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>BetPress</h1>
+	<h2>plugin for WordPress</h2>
+	<div id="documenter_buttons">
+		<a href="http://web-able.com/betpress/" class="btn btn-primary btn-large" target="_blank">Website</a> 
+		<a href="http://web-able.com/betpress/demo/" class="btn btn-primary btn-large" target="_blank">Demo</a>
+	</div>
+	<hr>
+	<ul>
+	<li>created: 22/12/2015</li>
+	<li>latest update: 24/01/2016</li>
+	<li>by: <a href="http://web-able.com/">WebAble</a></li>
+	<li>email: <a href="mailto:office@web-able.com">office@web-able.com</a></li>
+	</ul>
+	<p>This is the documentation of the BetPress plugin. Couldn&#39;t start more boring!</p>
+	<p>Just to say we tried to cover all of the plugin&#39;s features buuut...</p>
+	<p>... feel free to contact us if we miss something :)</p>	
+	<p>&nbsp;</p>
+	<p>Note that this documentation was written to cover the features of the full version.</p>
+	<p>If you use the Lite version there are features here that you can not access.</p>
+	</section>
+	
+	<section id="introduction">
+	<div class="page-header"><h3>Introduction</h3><hr class="notop"></div>
+<p>
+	<strong>Quick introduction</strong></p>
+<p>
+	BetPress adds a &quot;game&quot; to your website where your users can place betting slips and compete against each others. The plugin follows this workflow:&nbsp;</p>
+<ol>
+	<li>
+		You (the admin of the game) adds bettings</li>
+	<li>
+		Your users (the users of the game) are placing bets (they are not forced thought)</li>
+	<li>
+		You mark which bettings are winning</li>
+	<li>
+		The system checks all users&#39; slips and calculate their points</li>
+</ol>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Terms and phrases</strong></p>
+<p>
+	There are some specific for this plugin phrases that you should know:</p>
+<ul>
+	<li>
+		Sport - no surprises here, a sport is a sport. Examples: Football, Soccer, Basketball etc.</li>
+	<li>
+		Event - think of it like &quot;competition&quot; or &quot;league&quot;. Examples: Champions League, MLS, NBA etc. Every event has a sport.</li>
+	<li>
+		Bet event - think of it like &quot;game&quot;. Examples: Manchester United - Real Madrid, LA Galaxy - Chicago Fire. It may also be a question like &quot;Who will win NBA 2015/2016?&quot;. Every bet event has an event.</li>
+	<li>
+		Category - you may want to separate your bet options into categories. Examples: Match winner, Total goals, Who will score first. Every category belongs to bet event.</li>
+	<li>
+		Bet option - What the user can bet on. Examples: 1, 2, Draw etc. Every bet option belongs to category.</li>
+	<li>
+		Bettings - The short term for all the above together.</li>
+</ul>
+<p>
+	In this documentation you can find &quot;the system&quot;, &quot;the software&quot; or something similar, all such words and phrases refers to &quot;the BetPress plugin&quot;.</p>
+<p>
+	&nbsp;</p>
+<div>
+	<p>
+		<strong>Main features</strong></p>
+	<ul>
+		<li>
+			Semi-automated: you don&#39;t need to manually insert bettings.</li>
+		<li>
+			Monetized*: you can sell points via PayPal</li>
+		<li>
+			Customizable: over 15 settings about the game, over 25 color settings, 5 shortcodes, 2 widgets.</li>
+		<li>
+			Three odd types supported: decimal (Europe), fractional (UK) and moneyline (USA)</li>
+		<li>
+			Translation ready</li>
+		<li>
+			WPML compatible</li>
+		<li>
+			Responsive</li>
+		<li>
+			Supported</li>
+	</ul>
+	<p>
+		&nbsp;</p>
+	<p>
+		*The software gives you the opportunity to sell points via PayPal but it&#39;s up to you to use this feature or not. In some countries selling virtual points which are used for bettings may be illegal so we highly recommend consulting with a lawyer. We, the software developers, are NOT responsible for any actions took by the people who use the software.</p>
+</div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="how_betpress_works">
+	<div class="page-header"><h3>How BetPress works</h3><hr class="notop"></div>
+<p>
+	<strong>About BetPress</strong></p>
+<p>
+	The main idea of the plugin is to add a fun game to your website where users compete against each other guessing the outcome of different events. It simulates the very basic functionality of a bookmaker&#39;s website (like bwin, bet365, betfair etc) where bets are not made with real money but a virtual points.</p>
+<p>
+	To make a bet, you have to create a slip having at least one bet option in it. The possible winnings of a slip are calculated by multiplying the odds of every bet option in it by the stake the user made.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>How slips are handled</strong></p>
+<p>
+	Every slip has one of the following statuses:</p>
+<ul>
+	<li>
+		Unsubmitted</li>
+	<li>
+		Awaiting</li>
+	<li>
+		Winning</li>
+	<li>
+		Losing</li>
+	<li>
+		Canceled</li>
+	<li>
+		Timed out</li>
+</ul>
+<p>
+	The &quot;unsubmitted&quot; slip is what is shown in the BetPress Slip widget and there can be only one &quot;unsubmitted&quot; slip. If a user exits your website his slip will still be saved so he can submit it the next time he log in. Non-registered users can&#39;t have slips, they will get message to log in or register if they try to add betting option to their slip.</p>
+<p>
+	When a user submit his &quot;unsubmitted&quot; slip, that slip change its status to &quot;awaiting&quot; which means it waits for its bet options&#39; results.</p>
+<p>
+	If all its bet options are winning, then the slip will change its status to &quot;winning&quot;.</p>
+<p>
+	If one of its bet options is canceled, then the slip will change its status to &quot;canceled&quot;.</p>
+<p>
+	If there is at least one losing bet option <em>and</em> there are no canceled bet options, the slip is changing its status to &quot;losing&quot;.</p>
+<p>
+	&quot;Timed out&quot; status is like the &quot;canceled&quot; status but has a specific purpose. When you open a new leaderboard, the system checks all slips and after the check all slips with status &quot;awaiting&quot; are changed to &quot;timed out&quot;. This is to prevent the users from winning points from slips which were submitted during the previous leaderboard.</p>
+<p>
+	Note: a user can&#39;t edit or delete submitted slip even if all its bet options are still with status &quot;awaiting&quot;.</p>
+<p>
+	Note: a user can&#39;t have two awaiting slips containing the exact same bet options.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Bet options&#39; statuses</strong></p>
+<p>
+	Bet options have the same statuses except for both &quot;unsubmitted&quot; and &quot;timed out&quot;. It&#39;s kinda obvious and hard for explaining what every status means so we will skip this.</p>
+<p>
+	The default status is &quot;awaiting&quot; and you have to change it to &quot;winning&quot;, &quot;losing&quot; or &quot;canceled&quot;. We recommend&nbsp;to check all awaiting slips when you change some bet option&#39;s status from &quot;awaiting&quot; to something else.</p>
+<p>
+	If you&#39;ve changed a bet option&#39;s status to wrong one and you checked the awaiting slips, it&#39;s a must to check all slips (via Admin Dashboard -&gt; BetPress -&gt; Manual actions tab) right after you changed back the status to the correct one. Why should you do this? Let&#39;s say I have awaiting slip containing only one bet option (or many bet options that are winning and that last one with status awaiting). Now if you change the status of that option to winning and update all the slips, my slip is ending up &quot;winning&quot; and my points are increased by the amount of that slip&#39;s possible winnings. And that&#39;s something you don&#39;t want to happen if that bet option status is actually losing and you updated it by mistake to winning. So now you can update its status to &quot;losing&quot; and update the awaiting slips but this will change nothing because my slip is already marked &quot;winning&quot;. But if you check all slips (via Admin Dashboard -&gt; BetPress -&gt; Manual actions tab) then my slip will also be checked and its status is going to change to &quot;losing&quot; and my points will be reduced.</p>
+</section>
+<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<p>
+	<strong>Plugin requirements:</strong></p>
+<ul>
+	<li>
+		WordPress 3.5 or higher</li>
+	<li>
+		PHP 5.3 or higher</li>
+</ul>
+<p>
+	BetPress may not work if you made changes in core WordPress database table designs.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Installation:</strong></p>
+<p>
+	There is nothing specific for BetPress when you are installing it. You have two ways of doing it:</p>
+<ul>
+	<li>
+		Via FTP: Upload the non-zipped folder BetPress into your /wp-content/plugins/ folder.</li>
+	<li>
+		Via WordPress Admin Dashboard -&gt; Plugins -&gt; Add new -&gt; Select the zipped file BetPress</li>
+</ul>
+<p>
+	Don&#39;t forget to activate it.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Upgrading:</strong></p>
+<p>
+	To upgrade from BetPress Lite to the full version you only have to replace the files. Go to /wp-content/plugins/betpress/ and replace all the files there.</p>
+<p>
+	Do not forget to backup your old files, do NOT delete them. Why? Because if something goes wrong, you can place them back by the time we are solving the problem.</p>
+<p>
+	&nbsp;</p>
+	
+<p>
+	<strong>Translation:</strong></p>
+<p>
+	In the &#39;lang&#39; folder there are BetPress.po and BetPress.mo files. Open the BetPress.po with your favourite editor (Poedit is recommended), translate to your language and save the file with the name BetPress-xx_XX where xx is the abbreviation of the language (fe BetPress-fr_FR if you are translating to French). Your editor will create .po and .mo files and you only have to place these to in the lang folder.</p>
+</section>
+<section id="start_guide">
+	<div class="page-header"><h3>Start guide</h3><hr class="notop"></div>
+<p>
+	<strong>Setting up the plugin:</strong></p>
+<div>
+	&nbsp; &nbsp; 1. Download, install and activate the BetPress plugin</div>
+<div>
+	&nbsp; &nbsp; 2. (Optional) Go to BetPress -> BetPress and take a look at all the settings under the "Game settings", "General settings" and "Colors" tabs. And of course feel free to change them according to your needs.</div>
+<div>
+	&nbsp; &nbsp; 3. Go to Appearance -> Widgets and drag the BetPress Slip widget to a widget area that is visible on your pages</div>
+<div>
+	&nbsp; &nbsp; 4. Go to BetPress -> Leaderboards and open a new leaderboard. Or you may just rename the auto-generated leaderboard if you haven't change the "Starting points" setting.</div>
+<p>
+	<strong>If you are going to sell points, you have to setup the PayPal settings:</strong></p>
+<div>
+	&nbsp; &nbsp; 1. Log in into your PayPal account and upgrade it to Business if it is not already.</div>
+<div>
+	&nbsp; &nbsp; 2. Go to Profile -&gt; Profile and settings -&gt; My selling tools</div>
+<div>
+	&nbsp; &nbsp; 3. Find Website preferences (probably the 5th row top to bottom) and click Update</div>
+<div>
+	&nbsp; &nbsp; 4. Make sure Auto Return is On, Return URL is where you want your users to go after they make the payment and Payment Data Transfer is also On</div>
+<div>
+	&nbsp; &nbsp; 5. Copy the Identity Token, click Save and go to your Admin dashboard -&gt; BetPress</div>
+<div>
+	&nbsp; &nbsp; 6. Paste into PayPal token field</div>
+<div>
+	&nbsp; &nbsp; 7. Make sure the PayPal mail is your actual PayPal mail because by default it is your admin mail.</div>
+<div>
+	&nbsp; &nbsp; 8. On Return URL enter the URL of the page where you use the shortcode [betpress_buy_points]</div>
+<div>
+	&nbsp; &nbsp; 9. In most cases you will enter the same URL for Return URL if cancelled</div>
+<div>
+	&nbsp; &nbsp; 10. Click Save Changes button and that&#39;s it :)</div>
+	
+<p>
+	<strong>Workflow overview:</strong></p>
+<div>
+	&nbsp; &nbsp; 1. Go to BetPress -> Bettings and you will see the plugin has already auto-inserted some up-to-date data for you. Click "Manage event" on an event of your choice.</div>
+<div>
+	&nbsp; &nbsp; 2. Now you see the bet events for that event. Click "activate" on a bet event of your choice. This will show* the bet event on the front-end meaning your users will now see it and they can place bets for that bet event.</div>
+<div>
+	&nbsp; &nbsp; 3. After the bet event is actually played and you know the outcome, click "Modify bet options" and edit the bet options changing their status**. You will notice that when you change the status, the system auto check the "Update the awaiting slips?" checkbox and this is how you tell the system to calculate your users' points.</div>
+<div>
+	&nbsp; &nbsp; 4. That's it - these are the three steps you have to repeat for every bet event you want to support :)</div>
+<p>
+	* If you activated the bet event but it doesn't show on your Bettings page please check the Starts date of the event. If it's in the past just edit the bet event changing the Starts date. Also keep in mind that the "Close bets earlier" setting under the "Game settings" tab has an effect of the Starts date.</p>
+<p>
+	** If "Only one winning bet option per category?" setting under the "General settings" tab is checked (as it is by default) you can change the status only to the winning bet options and the system will auto-change the others bet options statuses to "losing".</p>
+<p>
+	<strong>Questions you may asked yourself:</strong></p>
+<p>
+	<i>How do I add other bettings?</i><br />
+	You can manually add other bettings or you can go to BetPress -> Auto insert data and select the bettings you want to auto-add.</p>
+<p>
+	<i>So after the bet event is played, I have to manually go inside all the events and see which bet events are played one by one?</i><br />
+	No! There is a widget placed in the Admin Dashboard page called BetPress and it contains shortcuts to the started bet events.</p>
+<p>
+	<i>How do I understand the outcome of the bet events?</i><br />
+	It's all on you! Use your favourite sports news website or any other 3rd party source you can trust.</p>
+</section>
+<section id="admin_pages">
+	<div class="page-header"><h3>Admin pages</h3><hr class="notop"></div>
+<p>
+	When the plugin is activated you can see the BetPress menu appear in the Admin Dashboard. It has several subpages.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>BetPress page</strong></p>
+<p>
+	This is where all the settings are stored under different tabs. All the settings that can confuse you in any way are hinted so you should have no problems understanding them.</p>
+<p>
+	The plugin use cookie to remember the last tab you clicked so when you go back to this page you will see the latest tab you used.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Bettings page</strong></p>
+<p>
+	This is where Sports, Events, Bet events, Categories and Bet options are stored separated in three pages: one for sports and events, one for bet events, and the last one is for bet options and categories. All these pages uses the same action buttons and you can find the &quot;Legend&quot; at the bottom of the page.</p>
+<p>
+	By default you start in Sports &amp; Events page where its obvious what you control.</p>
+<p>
+	To go &quot;inside&quot; specific event click the &quot;Manage event&quot; button. Now you are in the Bet events page. What you may already noticed as difference are &quot;Active?&quot; and &quot;Featured?&quot; columns. Your users will see only activated bet events, and if they are in the &quot;Featured&quot; page they will see only bet events that are both activated and featured.</p>
+<p>
+	To go &quot;inside&quot; specific&nbsp;bet event click the &quot;Modify bet options&quot; button. Now you are in the Bet options page. What&#39;s most important here is the &quot;status&quot; column. When you change the status of a bet option, it&#39;s highly recommended to tick the &quot;Update awaiting slips?&quot; checkbox. This will tell the system to check all users&#39; awaiting slips. If you forgot to do this or you are not quite sure if you did, you can go to BetPress -&gt; Manual actions -&gt; click the &quot;Check&quot; button. If you changed to wrong status and forced the system to calculate the awaiting slips, then you can change again the status to the right one and go to BetPress -&gt; Manual actions -&gt; click the &quot;Check all&quot; button. Please make sure you use these two ONLY in the above explained specific cases. If you are doing everything right, you should never use the Manual actions. Another thing worth mentioning is that there are no problems if you decide to change the odd of bet option: all users who already used that option in a slip they&#39;ve submitted will keep their odd and all the users who are going to submit a slip after your changes are going to use the new odd.</p>
+<p>
+	Note: When a bet option&#39;s status is changed to winning and the setting &quot;Only one winning bet option per category?&quot; is ticked, all other category&#39;s bet options are auto changed to losing.</p>
+<p>
+	Note: When a bet option&#39;s status is changed to canceled, all other bet event&#39;s bet options are auto changed to canceled.</p>
+<p>
+	Note: You can&#39;t add a bet event with past date but if you really have a good reason to do this, 
+	you can bypass the system by adding the bet event with some date in the future and then edit the bet event date.
+	The system doesn&#39;t check for date in the past on purpose when you edit bet event.
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Leaderboards page</strong></p>
+<p>
+	This is where you control the leaderboards. When the plugin was activated a leaderboard was opened so you can just rename it or you can open a new one once you are done setting up the game.</p>
+<p>
+	Note: You can have ONLY ONE active leaderboard at a time. Opening new leaderboard will recalculate all slips, cause reset in all user&#39;s points and close the current active leaderboard.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>PayPal log page</strong></p>
+<p>
+	This is where you see a log of all your users attempts to buy points. You may want to take a look on it from time to time for suspicious actions.</p>
+<p>
+	Note: To implement the PayPal payments we used PDT which sends the data to you only once (when the user finished with his payment or canceled it). If by some reason your site is down at that exact same time, or the user connection went down exactly after he paid on PayPal, or another similar extraordinary event occurs, it is possible that you received the funds but the user did not receive the points. In case a user complains about situation like this, check your PayPal account because the log won&#39;t show anything in such case.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Auto insert data page</strong></p>
+<p>
+	This is where you can add up-to-date bettings.</p>
+<p>
+	Note: The plugin currently gets the data from Betclic API but is developed in a way where the third party provider can be changed anytime and that won&#39;t force you to do anything, not even update of the plugin. In other words BetPress won&#39;t get broken if Betclic decide to restrict the access to their API.</p>
+</section>
+<section id="shortcodes">
+	<div class="page-header"><h3>Shortcodes</h3><hr class="notop"></div>
+<p>
+	<strong>[betpress_bettings]</strong></p>
+<p>
+	This will display all your <em>active </em>bettings which deadline is <em>not passed</em>. The deadline is what you&#39;ve selected for Starts date of the event minus the seconds you typed in the &quot;Close bets earlier&quot; option from Admin dashboard -&gt; Bettings -&gt; Game settings.</p>
+<p>
+	&nbsp;</p>
+<p>
+	This shortcode accepts two arguments:</p>
+<p>
+	- sport - shows the bettings only for that specific sport. Fe [betpress_bettings sport=&quot;martial arts&quot;]. The default value of this attribute is &quot;all&quot;.</p>
+<p>
+	- toggle - that&#39;s the number of minimum required children to have a parent in order to adds the option to toggle the children. Fe [betpress_bettings toggle=3] will add the toggle (hide and show) option for all sports that has at least 3 events. The default value of this attribute is 1.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>[betpress_featured]</strong></p>
+<p>
+	This will display all your <em>active and featured</em> bettings which deadline is <em>not passed</em> but in simpler way: only the name of the bet event is displayed alongside with the bet options of the very first category.</p>
+<p>
+	Note: this is designed to be used for 1, Draw, 2 or 1, 2 bet options. Long texts or lots of bet options may not look good here.</p>
+<p>
+	This shortcode accepts four arguments:</p>
+<p>
+	- heading - set to &quot;yes&quot; and you will have heading row above all the featured options. Fe [betpress_featured heading=yes]. The default value of this attribute is &quot;no&quot;.</p>
+<p>
+	- border - set to &quot;no&quot; to disable the borders between bet options. Fe [betpress_featured border=no]. The default value of this attribute is &quot;yes&quot;.</p>
+<p>
+	- sort_col - this is the criteria to sort the bettings and it accept three possible values: deadline, name and event. Fe [betpress_featured sort_col=name]. The default value of this attribute is &quot;deadline&quot;.</p>
+<p>
+	- sort_met - this is the direction of sorting and it accept two possible values: asc and desc (from ascending and descending). Fe [betpress_featured sort_col=name sort_met=desc]. The default value of this attribute is &quot;asc&quot;.</p>
+<p>
+	<strong>[betpress_slips]</strong></p>
+<p>
+	This will display every user his own slips.</p>
+<p>
+	This shortcode accepts four arguments: - awaiting - - winning - - losing - - canceled - - timed_out</p>
+<p>
+	All the arguments&#39; default value is &quot;yes&quot;. Fe if you want to show only the awaiting slips you can use&nbsp;[betpress_slips winning=no losing=no canceled=no timed_out=no]</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>[betpress_leaderboards]</strong></p>
+<p>
+	This will display a leaderboard of your choice.</p>
+<p>
+	This shortcode accepts three arguments:</p>
+<p>
+	- leaderboard - set to the name of a specific leaderboard. The default value of this attribute is &quot;active&quot;.</p>
+<p>
+	- rows - set to the number of results you want to show per page. The default value of this attribute is 10.</p>
+<p>
+	- top - set to the number of first X positions you want to show only. Fe to show only Top 15 players of the current active leaderboard you can use [betpress_leaderboards top=15]. This attribute will overwrite the attribute &#39;rows&#39; but these two attributes are not developed to be used together so avoid doing this.</p>
+<p>
+	Note: The leaderboard shows only the users that had at least one submitted betting slip.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>[betpress_buy_points]</strong></p>
+<p>
+	This will give to your users the opportunity to buy points via PayPal. The user has one hour to make the payment after he has been redirected to the PayPal website. If he paid after that one hour, then the system won&#39;t recognize his payment and you will have to check your PayPal account.</p>
+<p>
+	This shortcode accepts seven arguments:</p>
+<p>
+	- default_quantity - set to the number of points the user sees when he visit the page.&nbsp;The default value of this attribute is &quot;10&quot;.</p>
+<p>
+	- ratio - set to a number you will multiple by the price to get the points amount.&nbsp;The default value of this attribute is &quot;10&quot;.</p>
+<p>
+	- min_points - set to the minimum number of points that can be bought. The default value of this attribute is &quot;1&quot;.</p>
+<p>
+	- max_points - set to the maximum number of points that can be bought. The default value of this attribute is &quot;50&quot;.</p>
+<p>
+	- currency - set the currency (make sure PayPal support that currency). The default value of this attribute is &quot;USD&quot;.</p>
+<p>
+	- points_name - this is what the user will see in PayPal right after the amount of points. The default value of this attribute is &quot;points&quot;.</p>
+<p>
+	- code - this is what the user will see in PayPal as &quot;Item number&quot;. The default value of this attribute is &quot;P01&quot;.</p>
+</section>
+<section id="widgets">
+	<div class="page-header"><h3>Widgets</h3><hr class="notop"></div>
+<p>
+	<strong>BetPress Slip</strong></p>
+<p>
+	This widget shows the user his &quot;unsubmitted&quot; slip. This is also the place where you can show the user his current points.</p>
+<p>
+	A bet option is added to the slip by simply clicking on it. Of course you need the [betpress_bettings] or [betpress_featured] to display the bettings first. The user has the option to delete a bet option before he submit his slip. If there are some errors (fe a user tries to add the same bet option twice) an error message will be displayed above all the bet options in the slip. In case more than one error occurs&nbsp;then all of them will be displayed at once.</p>
+<p>
+	Note: Non-registered users will see the widget but will get error to log in or register when they try to add a bet option to the slip.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>BetPress Odd Type Switcher</strong></p>
+<p>
+	This widget gives your users the opportunity to see the bet odds in their preferred odd type. Currently three odd types are supported:</p>
+<ul>
+	<li>
+		Decimal (European)</li>
+	<li>
+		Fraction (UK)</li>
+	<li>
+		Moneyline (USA)</li>
+</ul>
+<p>
+	How the system understand each user preferred type:</p>
+<ol>
+	<li>
+		By default the system shows what you&#39;ve selected in Admin Dashboard -&gt; BetPress -&gt; General.</li>
+	<li>
+		If it&#39;s non-registered user the system remembers user&#39;s choice using cookie. If no cookie is found, the system shows what you&#39;ve selected for default.</li>
+	<li>
+		If it&#39;s registered user the system remembers user&#39;s choice using the database. If no records are found, the system will try to find a cookie before showing what you&#39;ve selected for default.</li>
+</ol>
+<p>
+	&nbsp;</p>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p>
+	<strong>Support</strong></p>
+<p>
+	We will be more than happy to help you fix your problems. We know how important time is and that&#39;s why we are doing our best to answer as quick as possible. Speaking of time, you can save both yours and ours time by doing few things before contacting us:</p>
+<ol>
+	<li>
+		Deactivate all your other plugins one by one so you can see if your problem is caused by conflict with another plugin.</li>
+	<li>
+		Change your theme so you can see if your problem is caused by conflict with your current theme.</li>
+	<li>
+		Try to find the solution in this documentation or the FAQ</li>
+</ol>
+<p>
+	If all of these are not working for you, please describe your problem as detailed as possible. Don&#39;t forget to tell us:</p>
+<ul>
+	<li>
+		Your WordPress version</li>
+	<li>
+		Your BetPress version</li>
+	<li>
+		Your PHP version</li>
+	<li>
+		When you noticed the problem and what you think caused it?</li>
+</ul>
+<p>
+	You can contact us not only for problems but also for questions, feedback, comments or just for fun :)</p>
+<p>
+	Customization is not included in the support but we are not dickheads and will help you for very small issues (fe css solutions).</p>
+<p>
+	We are currently available for more complicated paid customization but we can change our availability status anytime.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Thank you</strong></p>
+<p>
+	Thank you for using our software, thank you for the effort and time you put reading this documentation, it was hard time writing it thought (phew)</p>
+<p>
+	See you and love you, peace! :)</p>
+</section>
+
+	</div>
+</body>
+</html>

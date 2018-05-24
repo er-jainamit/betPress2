@@ -1,0 +1,1353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BetPress\n"
+"POT-Creation-Date: 2015-12-28 13:01+0200\n"
+"PO-Revision-Date: 2015-12-28 13:01+0200\n"
+"Last-Translator: \n"
+"Language-Team: Web-Able <office@web-able.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;printf;sprintf\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: BetPress.php:103
+msgid ""
+"You are about to delete the sport and all the sport associated data. Are you "
+"sure?"
+msgstr ""
+
+#: BetPress.php:104
+msgid ""
+"You are about to delete the event and all the event associated data. Are you "
+"sure?"
+msgstr ""
+
+#: BetPress.php:105
+msgid ""
+"You are about to delete the bet event and all the bet event associated data. "
+"Are you sure?"
+msgstr ""
+
+#: BetPress.php:106
+msgid ""
+"You are about to delete the category and all the category associated data. "
+"Are you sure?"
+msgstr ""
+
+#: BetPress.php:107
+msgid ""
+"You are about to delete the bet option and all the bet option associated "
+"data. Are you sure?"
+msgstr ""
+
+#: BetPress.php:119
+msgid "Show"
+msgstr ""
+
+#: BetPress.php:120
+msgid "Hide"
+msgstr ""
+
+#: BetPress.php:121 views/shortcodes/bettings.php:26
+#: views/shortcodes/bettings.php:48 views/shortcodes/bettings.php:70
+msgid "-"
+msgstr ""
+
+#: BetPress.php:122
+msgid "+"
+msgstr ""
+
+#: BetPress.php:123
+msgid "Loading..."
+msgstr ""
+
+#: BetPress.php:251
+msgid "BetPress settings"
+msgstr ""
+
+#: BetPress.php:252 BetPress.php:356
+msgid "BetPress"
+msgstr ""
+
+#: BetPress.php:260 BetPress.php:261 controllers/betpress-activation.php:189
+msgid "Bettings"
+msgstr ""
+
+#: BetPress.php:269 BetPress.php:270 controllers/betpress-activation.php:203
+#: views/admin/leaderboards.php:9
+msgid "Leaderboards"
+msgstr ""
+
+#: BetPress.php:278 BetPress.php:279 views/admin/paypal-log.php:9
+msgid "PayPal log"
+msgstr ""
+
+#: BetPress.php:287 BetPress.php:288 views/admin/auto-insert.php:11
+msgid "Auto insert data"
+msgstr ""
+
+#: BetPress.php:300
+msgid "BetPress Points"
+msgstr ""
+
+#: BetPress.php:301
+msgid "BetPress Bought Points"
+msgstr ""
+
+#: controllers/add-bet-option.php:23
+msgid "Please login or register."
+msgstr ""
+
+#: controllers/add-bet-option.php:29
+msgid "No such bet option."
+msgstr ""
+
+#: controllers/add-bet-option.php:40
+msgid "This event deadline has passed."
+msgstr ""
+
+#: controllers/add-bet-option.php:94
+msgid "You can't add the same option twice."
+msgstr ""
+
+#: controllers/add-bet-option.php:107
+msgid "You can't add two options of same category."
+msgstr ""
+
+#: controllers/add-bet-option.php:169 controllers/delete-bet-option.php:49
+#: controllers/delete-bet-option.php:74
+msgid "DB error."
+msgstr ""
+
+#: controllers/admin/auto-insert.php:24
+msgid "No sport selected"
+msgstr ""
+
+#: controllers/admin/auto-insert.php:29
+msgid "No events selected."
+msgstr ""
+
+#: controllers/admin/auto-insert.php:41 controllers/admin/auto-insert.php:61
+#: controllers/admin/auto-insert.php:81
+msgid "Invalid data passed."
+msgstr ""
+
+#: controllers/admin/auto-insert.php:49
+msgid "No bet events selected."
+msgstr ""
+
+#: controllers/admin/auto-insert.php:69
+msgid "No categories selected."
+msgstr ""
+
+#: controllers/admin/auto-insert.php:129
+msgid "Selected data was inserted."
+msgstr ""
+
+#: controllers/admin/auto-insert.php:134 controllers/admin/bettings.php:64
+#: controllers/admin/bettings.php:114 controllers/admin/bettings.php:186
+#: controllers/admin/bettings.php:320 controllers/admin/bettings.php:471
+#: controllers/admin/bettings.php:632 controllers/admin/bettings.php:796
+#: controllers/admin/bettings.php:941 controllers/admin/bettings.php:993
+#: controllers/admin/bettings.php:1078 controllers/admin/leaderboards.php:66
+#: controllers/admin/leaderboards.php:207 controllers/admin/settings.php:27
+#: controllers/admin/settings.php:41 controllers/admin/settings.php:59
+msgid "Database error."
+msgstr ""
+
+#: controllers/admin/bettings.php:25 controllers/admin/bettings.php:132
+msgid "An event with that name already exists."
+msgstr ""
+
+#: controllers/admin/bettings.php:30 controllers/admin/bettings.php:137
+msgid "Event name must NOT be empty."
+msgstr ""
+
+#: controllers/admin/bettings.php:59
+msgid "Event added."
+msgstr ""
+
+#: controllers/admin/bettings.php:78 controllers/admin/bettings.php:283
+msgid "A sport with that name already exists."
+msgstr ""
+
+#: controllers/admin/bettings.php:83 controllers/admin/bettings.php:288
+msgid "Sport name must NOT be empty."
+msgstr ""
+
+#: controllers/admin/bettings.php:110
+msgid "Sport added."
+msgstr ""
+
+#: controllers/admin/bettings.php:142
+msgid "Wrong sport."
+msgstr ""
+
+#: controllers/admin/bettings.php:182
+msgid "Event updated."
+msgstr ""
+
+#: controllers/admin/bettings.php:316
+msgid "Sport updated."
+msgstr ""
+
+#: controllers/admin/bettings.php:428 controllers/admin/bettings.php:1032
+msgid "Bet event already exists, pick another name."
+msgstr ""
+
+#: controllers/admin/bettings.php:433 controllers/admin/bettings.php:1027
+msgid "Bet event name must NOT be empty."
+msgstr ""
+
+#: controllers/admin/bettings.php:439 controllers/admin/bettings.php:1038
+msgid "Not a valid date."
+msgstr ""
+
+#: controllers/admin/bettings.php:467
+msgid "Bet event updated."
+msgstr ""
+
+#: controllers/admin/bettings.php:595 controllers/admin/bettings.php:955
+msgid "Category name must NOT be empty."
+msgstr ""
+
+#: controllers/admin/bettings.php:600 controllers/admin/bettings.php:960
+msgid "A category with that name already exists."
+msgstr ""
+
+#: controllers/admin/bettings.php:628
+msgid "Category edited."
+msgstr ""
+
+#: controllers/admin/bettings.php:721 controllers/admin/bettings.php:895
+msgid "Bet option name must NOT be empty."
+msgstr ""
+
+#: controllers/admin/bettings.php:726 controllers/admin/bettings.php:900
+msgid "Odd can't be less than 1."
+msgstr ""
+
+#: controllers/admin/bettings.php:731
+msgid "No such status."
+msgstr ""
+
+#: controllers/admin/bettings.php:792
+msgid "Bet option edited."
+msgstr ""
+
+#: controllers/admin/bettings.php:805 controllers/shortcodes/slips.php:39
+msgid "awaiting"
+msgstr ""
+
+#: controllers/admin/bettings.php:806 controllers/shortcodes/slips.php:48
+msgid "winning"
+msgstr ""
+
+#: controllers/admin/bettings.php:807 controllers/shortcodes/slips.php:57
+msgid "losing"
+msgstr ""
+
+#: controllers/admin/bettings.php:808 controllers/shortcodes/slips.php:66
+msgid "canceled"
+msgstr ""
+
+#: controllers/admin/bettings.php:905
+msgid "No such category."
+msgstr ""
+
+#: controllers/admin/bettings.php:937
+msgid "Bet option added."
+msgstr ""
+
+#: controllers/admin/bettings.php:989
+msgid "Category added."
+msgstr ""
+
+#: controllers/admin/bettings.php:1046
+msgid "Selected date is in the past."
+msgstr ""
+
+#: controllers/admin/bettings.php:1074
+msgid "Bet event added."
+msgstr ""
+
+#: controllers/admin/leaderboards.php:29 controllers/admin/leaderboards.php:91
+msgid "A leaderboard with that name already exists."
+msgstr ""
+
+#: controllers/admin/leaderboards.php:34
+msgid "Leaderboard name must NOT be empty."
+msgstr ""
+
+#: controllers/admin/leaderboards.php:62
+msgid "Leaderboard updated."
+msgstr ""
+
+#: controllers/admin/leaderboards.php:86
+msgid "Name must NOT be empty."
+msgstr ""
+
+#: controllers/admin/leaderboards.php:202
+msgid ""
+"Leaderboard added, previous leaderboard closed and users points restarted."
+msgstr ""
+
+#: controllers/admin/settings.php:23
+msgid "All awaiting slips were checked."
+msgstr ""
+
+#: controllers/admin/settings.php:37
+msgid "All slips were checked."
+msgstr ""
+
+#: controllers/admin/settings.php:54
+msgid "All users' points were restarted."
+msgstr ""
+
+#: controllers/admin/settings.php:73
+msgid "Settings saved."
+msgstr ""
+
+#: controllers/admin/settings.php:78 widgets/odd-type-switcher.php:50
+msgid "Decimal"
+msgstr ""
+
+#: controllers/admin/settings.php:79 widgets/odd-type-switcher.php:51
+msgid "Fraction"
+msgstr ""
+
+#: controllers/admin/settings.php:80 widgets/odd-type-switcher.php:52
+msgid "Moneyline"
+msgstr ""
+
+#: controllers/betpress-activation.php:196
+msgid "Featured"
+msgstr ""
+
+#: controllers/betpress-activation.php:210
+msgid "Buy points"
+msgstr ""
+
+#: controllers/betpress-activation.php:217
+msgid "Slips"
+msgstr ""
+
+#: controllers/delete-bet-option.php:53 views/widgets/betslip.php:35
+msgid "Your betting slip is empty."
+msgstr ""
+
+#: controllers/points-change.php:19 views/widgets/betslip.php:15
+#, php-format
+msgid "Your points: %s"
+msgstr ""
+
+#: controllers/shortcodes/buy-points.php:67
+msgid "Txn ID already used."
+msgstr ""
+
+#: controllers/shortcodes/buy-points.php:72
+msgid "Price doesn't match."
+msgstr ""
+
+#: controllers/shortcodes/buy-points.php:77
+msgid "Currency doesn't match."
+msgstr ""
+
+#: controllers/shortcodes/buy-points.php:82
+msgid "Points amount doesn't match."
+msgstr ""
+
+#: controllers/shortcodes/buy-points.php:87
+msgid "User is not logged in."
+msgstr ""
+
+#: controllers/shortcodes/buy-points.php:206
+#, php-format
+msgid "Points can be bought only by users with less than %s points."
+msgstr ""
+
+#: controllers/shortcodes/slips.php:40 controllers/shortcodes/slips.php:58
+#: controllers/shortcodes/slips.php:67 controllers/shortcodes/slips.php:76
+msgid "Possible winnings"
+msgstr ""
+
+#: controllers/shortcodes/slips.php:49
+msgid "Winnings"
+msgstr ""
+
+#: controllers/shortcodes/slips.php:75
+msgid "timed out"
+msgstr ""
+
+#: controllers/submit-slip.php:31
+msgid "Select bet option first."
+msgstr ""
+
+#: controllers/submit-slip.php:49
+#, php-format
+msgid "The deadline for %s has passed."
+msgstr ""
+
+#: controllers/submit-slip.php:71
+msgid "You already have a slip with these options."
+msgstr ""
+
+#: controllers/submit-slip.php:79
+msgid "Stake must be whole number."
+msgstr ""
+
+#: controllers/submit-slip.php:85
+msgid "You don't have enough points."
+msgstr ""
+
+#: controllers/submit-slip.php:90
+#, php-format
+msgid "Minimum allowed stake is %s"
+msgstr ""
+
+#: controllers/submit-slip.php:99
+#, php-format
+msgid "Maximum allowed stake is %s"
+msgstr ""
+
+#: controllers/submit-slip.php:104
+msgid "The stake must be greater than zero."
+msgstr ""
+
+#: controllers/submit-slip.php:171
+msgid "Your bet slip has been submitted."
+msgstr ""
+
+#: functions.php:72
+msgid "Expected number, saw "
+msgstr ""
+
+#: functions.php:76
+msgid "Expected positive number, saw "
+msgstr ""
+
+#: functions.php:85
+#, php-format
+msgid "Expected empty string or %s, saw "
+msgstr ""
+
+#: functions.php:94
+msgid "Expected email address, saw "
+msgstr ""
+
+#: functions.php:103
+msgid "Expected registered email address, saw "
+msgstr ""
+
+#: functions.php:113
+msgid "Expected URL, saw "
+msgstr ""
+
+#: functions.php:140
+msgid "Expected color, saw "
+msgstr ""
+
+#: functions.php:155
+msgid "Expected odd type, saw "
+msgstr ""
+
+#: functions.php:288
+msgid "Data is no longer saved."
+msgstr ""
+
+#: views/admin/auto-insert.php:21
+msgid ""
+"This page may needs several seconds to load due to the large amount of data."
+msgstr ""
+
+#: views/admin/auto-insert.php:31
+msgid "Choose a sport"
+msgstr ""
+
+#: views/admin/auto-insert.php:39
+msgid "Select sport"
+msgstr ""
+
+#: views/admin/auto-insert.php:57
+msgid "Auto activate"
+msgstr ""
+
+#: views/admin/auto-insert.php:70
+msgid "If checked, you don't need to manually activate every bet event."
+msgstr ""
+
+#: views/admin/auto-insert.php:80
+msgid "Choose events"
+msgstr ""
+
+#: views/admin/auto-insert.php:92
+msgid "No events available for this sport at the moment."
+msgstr ""
+
+#: views/admin/auto-insert.php:183
+msgid "Insert data"
+msgstr ""
+
+#: views/admin/bet-events.php:12
+#, php-format
+msgid "Bet events for event %s"
+msgstr ""
+
+#: views/admin/bet-events.php:19 views/admin/bet-events.php:67
+msgid "Add bet event"
+msgstr ""
+
+#: views/admin/bet-events.php:33 views/admin/bet-events.php:83
+#: views/admin/bet-events.php:257 views/admin/edit-bet-event.php:24
+msgid "Bet event name"
+msgstr ""
+
+#: views/admin/bet-events.php:49
+msgid "Starts date"
+msgstr ""
+
+#: views/admin/bet-events.php:57
+msgid "Bets will be closed after the starting date."
+msgstr ""
+
+#: views/admin/bet-events.php:85 views/admin/bet-events.php:259
+msgid "Add/Edit/Remove bet options"
+msgstr ""
+
+#: views/admin/bet-events.php:87 views/admin/bet-events.php:261
+msgid "Active?"
+msgstr ""
+
+#: views/admin/bet-events.php:89 views/admin/bet-events.php:263
+msgid "Featured?"
+msgstr ""
+
+#: views/admin/bet-events.php:91 views/admin/bet-events.php:265
+msgid "Starts date*"
+msgstr ""
+
+#: views/admin/bet-events.php:93 views/admin/bet-events.php:267
+#: views/admin/bet-options.php:134 views/admin/bet-options.php:241
+#: views/admin/bet-options.php:299 views/admin/bet-options.php:382
+#: views/shortcodes/featured.php:23
+msgid "Options"
+msgstr ""
+
+#: views/admin/bet-events.php:107
+msgid "There are no bet events for this event."
+msgstr ""
+
+#: views/admin/bet-events.php:129
+msgid "Modify bet options"
+msgstr ""
+
+#: views/admin/bet-events.php:141
+msgid "No, "
+msgstr ""
+
+#: views/admin/bet-events.php:145
+msgid "activate"
+msgstr ""
+
+#: views/admin/bet-events.php:155
+msgid "Yes, "
+msgstr ""
+
+#: views/admin/bet-events.php:159
+msgid "deactivate"
+msgstr ""
+
+#: views/admin/bet-events.php:175
+msgid "Off, "
+msgstr ""
+
+#: views/admin/bet-events.php:179
+msgid "switch on"
+msgstr ""
+
+#: views/admin/bet-events.php:189
+msgid "On, "
+msgstr ""
+
+#: views/admin/bet-events.php:193
+msgid "switch off"
+msgstr ""
+
+#: views/admin/bet-events.php:211 views/admin/bet-events.php:213
+#: views/admin/bet-options.php:188 views/admin/bet-options.php:335
+#: views/admin/helper.php:17 views/admin/helper.php:19
+#: views/admin/leaderboards.php:105 views/admin/leaderboards.php:107
+#: views/admin/sports-and-events.php:131 views/admin/sports-and-events.php:141
+#: views/admin/sports-and-events.php:143 views/admin/sports-and-events.php:281
+#: views/admin/sports-and-events.php:283
+msgid "Edit"
+msgstr ""
+
+#: views/admin/bet-events.php:217 views/admin/bet-events.php:219
+#: views/admin/bet-options.php:194 views/admin/bet-options.php:341
+#: views/admin/helper.php:25 views/admin/helper.php:27
+#: views/admin/sports-and-events.php:147 views/admin/sports-and-events.php:149
+#: views/admin/sports-and-events.php:287 views/admin/sports-and-events.php:289
+#: views/widget-bet-options.php:19
+msgid "Delete"
+msgstr ""
+
+#: views/admin/bet-events.php:225 views/admin/bet-events.php:227
+#: views/admin/bet-options.php:202 views/admin/bet-options.php:349
+#: views/admin/helper.php:33 views/admin/helper.php:35
+#: views/admin/sports-and-events.php:155 views/admin/sports-and-events.php:157
+#: views/admin/sports-and-events.php:295 views/admin/sports-and-events.php:297
+msgid "Move up"
+msgstr ""
+
+#: views/admin/bet-events.php:235 views/admin/bet-events.php:237
+#: views/admin/bet-options.php:213 views/admin/bet-options.php:360
+#: views/admin/helper.php:41 views/admin/helper.php:43
+#: views/admin/sports-and-events.php:165 views/admin/sports-and-events.php:167
+#: views/admin/sports-and-events.php:305 views/admin/sports-and-events.php:307
+msgid "Move down"
+msgstr ""
+
+#: views/admin/bet-events.php:277 views/admin/paypal-log.php:147
+msgid ""
+"*Time is showed in the timezone you have selected via Settings->General page."
+msgstr ""
+
+#: views/admin/bet-events.php:283
+msgid "Go back to sports and events."
+msgstr ""
+
+#: views/admin/bet-options.php:11
+#, php-format
+msgid "Bet options for %s"
+msgstr ""
+
+#: views/admin/bet-options.php:18
+msgid "Bet options"
+msgstr ""
+
+#: views/admin/bet-options.php:22 views/admin/bet-options.php:108
+msgid "Add bet option"
+msgstr ""
+
+#: views/admin/bet-options.php:38
+msgid "Please add a category first."
+msgstr ""
+
+#: views/admin/bet-options.php:50 views/admin/bet-options.php:126
+#: views/admin/bet-options.php:233 views/admin/edit-bet-option.php:24
+msgid "Bet option name"
+msgstr ""
+
+#: views/admin/bet-options.php:66 views/admin/edit-bet-option.php:40
+msgid "Bet option odd"
+msgstr ""
+
+#: views/admin/bet-options.php:82
+msgid "Apply to category"
+msgstr ""
+
+#: views/admin/bet-options.php:128 views/admin/bet-options.php:235
+msgid "Odds"
+msgstr ""
+
+#: views/admin/bet-options.php:130 views/admin/bet-options.php:237
+#: views/admin/edit-bet-option.php:56 views/admin/leaderboards.php:65
+#: views/admin/leaderboards.php:125 views/admin/paypal-log.php:43
+#: views/admin/paypal-log.php:129
+msgid "Status"
+msgstr ""
+
+#: views/admin/bet-options.php:132 views/admin/bet-options.php:239
+msgid "Category"
+msgstr ""
+
+#: views/admin/bet-options.php:148
+msgid "No bet options added."
+msgstr ""
+
+#: views/admin/bet-options.php:251
+msgid "Categories"
+msgstr ""
+
+#: views/admin/bet-options.php:255 views/admin/bet-options.php:285
+msgid "Add category"
+msgstr ""
+
+#: views/admin/bet-options.php:269 views/admin/bet-options.php:297
+#: views/admin/bet-options.php:380 views/admin/edit-category.php:24
+msgid "Category name"
+msgstr ""
+
+#: views/admin/bet-options.php:313
+msgid "No categories added yet."
+msgstr ""
+
+#: views/admin/bet-options.php:392
+msgid "Go back to bet events."
+msgstr ""
+
+#: views/admin/dashboard-widget.php:11
+msgid "Started bet events waiting for your actions"
+msgstr ""
+
+#: views/admin/edit-bet-event.php:11
+#, php-format
+msgid "Edit bet event %s"
+msgstr ""
+
+#: views/admin/edit-bet-event.php:40
+msgid "Starting date"
+msgstr ""
+
+#: views/admin/edit-bet-event.php:56
+msgid "Edit bet event"
+msgstr ""
+
+#: views/admin/edit-bet-event.php:62
+msgid "Go back to bet events"
+msgstr ""
+
+#: views/admin/edit-bet-option.php:11
+#, php-format
+msgid "Edit bet option %s"
+msgstr ""
+
+#: views/admin/edit-bet-option.php:86
+msgid "Update the awaiting slips?"
+msgstr ""
+
+#: views/admin/edit-bet-option.php:104
+msgid "Edit bet option"
+msgstr ""
+
+#: views/admin/edit-bet-option.php:110 views/admin/edit-category.php:46
+msgid "Go back to bet options"
+msgstr ""
+
+#: views/admin/edit-category.php:11
+#, php-format
+msgid "Edit category %s"
+msgstr ""
+
+#: views/admin/edit-category.php:40
+msgid "Edit category"
+msgstr ""
+
+#: views/admin/edit-event.php:11
+#, php-format
+msgid "Edit event %s"
+msgstr ""
+
+#: views/admin/edit-event.php:24 views/admin/sports-and-events.php:33
+#: views/admin/sports-and-events.php:97 views/admin/sports-and-events.php:191
+msgid "Event name"
+msgstr ""
+
+#: views/admin/edit-event.php:40 views/admin/sports-and-events.php:49
+msgid "Apply to sport"
+msgstr ""
+
+#: views/admin/edit-event.php:68
+msgid "Edit event"
+msgstr ""
+
+#: views/admin/edit-event.php:74 views/admin/edit-sport.php:46
+msgid "Go back to sports & events"
+msgstr ""
+
+#: views/admin/edit-leaderboard.php:11
+#, php-format
+msgid "Edit leaderboard %s"
+msgstr ""
+
+#: views/admin/edit-leaderboard.php:24 views/admin/leaderboards.php:21
+msgid "Leaderboard name"
+msgstr ""
+
+#: views/admin/edit-leaderboard.php:40
+msgid "Edit leaderboard"
+msgstr ""
+
+#: views/admin/edit-leaderboard.php:46 views/admin/leaderboard-details.php:91
+msgid "Go back to leaderboards"
+msgstr ""
+
+#: views/admin/edit-sport.php:11
+#, php-format
+msgid "Edit sport %s"
+msgstr ""
+
+#: views/admin/edit-sport.php:24 views/admin/sports-and-events.php:225
+#: views/admin/sports-and-events.php:257 views/admin/sports-and-events.php:331
+msgid "Sport name"
+msgstr ""
+
+#: views/admin/edit-sport.php:40
+msgid "Edit sport"
+msgstr ""
+
+#: views/admin/helper.php:11
+msgid "Legend"
+msgstr ""
+
+#: views/admin/leaderboard-details.php:9
+#, php-format
+msgid "Details for %s"
+msgstr ""
+
+#: views/admin/leaderboard-details.php:17
+#: views/admin/leaderboard-details.php:77
+msgid "Position"
+msgstr ""
+
+#: views/admin/leaderboard-details.php:19
+#: views/admin/leaderboard-details.php:79 views/shortcodes/leaderboard.php:28
+msgid "Username"
+msgstr ""
+
+#: views/admin/leaderboard-details.php:21
+#: views/admin/leaderboard-details.php:81 views/admin/paypal-log.php:49
+#: views/admin/paypal-log.php:135 views/shortcodes/buy-points.php:30
+#: views/shortcodes/leaderboard.php:34
+msgid "Points"
+msgstr ""
+
+#: views/admin/leaderboard-details.php:63
+msgid "Nothing to show"
+msgstr ""
+
+#: views/admin/leaderboards.php:11
+msgid "Open new leaderboard and close the current active"
+msgstr ""
+
+#: views/admin/leaderboards.php:37
+msgid "Open leaderboard"
+msgstr ""
+
+#: views/admin/leaderboards.php:43
+msgid ""
+"WARNING: You can have ONLY ONE active leaderboard at a time. Opening new "
+"leaderboard will recalculate all slips, cause reset in all user's points and "
+"close the current active leaderboard."
+msgstr ""
+
+#: views/admin/leaderboards.php:63 views/admin/leaderboards.php:123
+msgid "Name"
+msgstr ""
+
+#: views/admin/leaderboards.php:67 views/admin/leaderboards.php:127
+msgid "Details"
+msgstr ""
+
+#: views/admin/leaderboards.php:69 views/admin/leaderboards.php:129
+#: views/admin/sports-and-events.php:103 views/admin/sports-and-events.php:197
+#: views/admin/sports-and-events.php:259 views/admin/sports-and-events.php:333
+msgid "Actions"
+msgstr ""
+
+#: views/admin/leaderboards.php:95 views/admin/leaderboards.php:97
+msgid "See leaderboard"
+msgstr ""
+
+#: views/admin/paypal-log.php:17
+msgid "All users"
+msgstr ""
+
+#: views/admin/paypal-log.php:31
+msgid "Filter"
+msgstr ""
+
+#: views/admin/paypal-log.php:41 views/admin/paypal-log.php:127
+msgid "Nickname"
+msgstr ""
+
+#: views/admin/paypal-log.php:45 views/admin/paypal-log.php:131
+msgid "Date*"
+msgstr ""
+
+#: views/admin/paypal-log.php:47 views/admin/paypal-log.php:133
+msgid "IP address"
+msgstr ""
+
+#: views/admin/paypal-log.php:51 views/admin/paypal-log.php:137
+msgid "Message"
+msgstr ""
+
+#: views/admin/paypal-log.php:65
+msgid "No transactions yet."
+msgstr ""
+
+#: views/admin/settings.php:12
+msgid "Game settings"
+msgstr ""
+
+#: views/admin/settings.php:16
+msgid "General settings"
+msgstr ""
+
+#: views/admin/settings.php:20
+msgid "PayPal"
+msgstr ""
+
+#: views/admin/settings.php:24
+msgid "Colors"
+msgstr ""
+
+#: views/admin/settings.php:28
+msgid "Manual actions"
+msgstr ""
+
+#: views/admin/settings.php:37
+msgid "Note"
+msgstr ""
+
+#: views/admin/settings.php:41
+msgid ""
+"Please avoid using the manual actions, these should be used in specific "
+"cases only."
+msgstr ""
+
+#: views/admin/settings.php:51
+msgid "Check all awaiting slips"
+msgstr ""
+
+#: views/admin/settings.php:59
+msgid "Check"
+msgstr ""
+
+#: views/admin/settings.php:71
+msgid "Check all slips"
+msgstr ""
+
+#: views/admin/settings.php:79
+msgid "Check all"
+msgstr ""
+
+#: views/admin/settings.php:91
+msgid "Restart users points"
+msgstr ""
+
+#: views/admin/settings.php:99
+msgid "Reset"
+msgstr ""
+
+#: views/admin/settings.php:120
+msgid "Starting points"
+msgstr ""
+
+#: views/admin/settings.php:128
+msgid "This is how many points the users have when they start."
+msgstr ""
+
+#: views/admin/settings.php:138
+msgid "Close bets earlier"
+msgstr ""
+
+#: views/admin/settings.php:146
+msgid ""
+"This will prevent users from betting X seconds before the bet event starts. "
+"(where X is what you enter)"
+msgstr ""
+
+#: views/admin/settings.php:156
+msgid "Minimum allowed stake"
+msgstr ""
+
+#: views/admin/settings.php:164
+msgid "The minimum stake per betting slip."
+msgstr ""
+
+#: views/admin/settings.php:174
+msgid "Maximum allowed stake"
+msgstr ""
+
+#: views/admin/settings.php:182
+msgid "The maximum stake per betting slip."
+msgstr ""
+
+#: views/admin/settings.php:196
+msgid "PayPal mail"
+msgstr ""
+
+#: views/admin/settings.php:204
+msgid "Make sure this is your PayPal mail."
+msgstr ""
+
+#: views/admin/settings.php:214
+msgid "Maximum points to buy"
+msgstr ""
+
+#: views/admin/settings.php:222
+msgid ""
+"The total amount of points that every user is allowed to buy (per "
+"leaderboard)."
+msgstr ""
+
+#: views/admin/settings.php:232
+msgid "Allow buy if points are below"
+msgstr ""
+
+#: views/admin/settings.php:240
+msgid ""
+"Users that current points are above this number, are NOT able to buy points "
+"at all."
+msgstr ""
+
+#: views/admin/settings.php:250
+msgid "Return URL if cancelled"
+msgstr ""
+
+#: views/admin/settings.php:258
+msgid "Where to send the user if the payment is cancelled."
+msgstr ""
+
+#: views/admin/settings.php:268
+msgid "PayPal token"
+msgstr ""
+
+#: views/admin/settings.php:284
+msgid "Sandbox?"
+msgstr ""
+
+#: views/admin/settings.php:297
+msgid ""
+"Use it to test before going live (it's PayPal feature which allow us to test "
+"without actual payments)."
+msgstr ""
+
+#: views/admin/settings.php:307
+msgid "Message if payment is done."
+msgstr ""
+
+#: views/admin/settings.php:321
+msgid ""
+"This message will be displayed to the user only if he paid successfully."
+msgstr ""
+
+#: views/admin/settings.php:331
+msgid "Message if payment failed."
+msgstr ""
+
+#: views/admin/settings.php:345
+msgid "This message will be displayed to the user only if he failed to pay."
+msgstr ""
+
+#: views/admin/settings.php:359
+msgid "Bettings colors"
+msgstr ""
+
+#: views/admin/settings.php:371
+msgid "Sport title background"
+msgstr ""
+
+#: views/admin/settings.php:387
+msgid "Sport title text"
+msgstr ""
+
+#: views/admin/settings.php:403
+msgid "Sport container background"
+msgstr ""
+
+#: views/admin/settings.php:419
+msgid "Event title background"
+msgstr ""
+
+#: views/admin/settings.php:435
+msgid "Event title text"
+msgstr ""
+
+#: views/admin/settings.php:451
+msgid "Event container background"
+msgstr ""
+
+#: views/admin/settings.php:467
+msgid "Bet event title background"
+msgstr ""
+
+#: views/admin/settings.php:483
+msgid "Bet event title text"
+msgstr ""
+
+#: views/admin/settings.php:499
+msgid "Cat container background"
+msgstr ""
+
+#: views/admin/settings.php:515
+msgid "Cat title background"
+msgstr ""
+
+#: views/admin/settings.php:531
+msgid "Cat title text"
+msgstr ""
+
+#: views/admin/settings.php:547 views/admin/settings.php:655
+msgid "Button background"
+msgstr ""
+
+#: views/admin/settings.php:563 views/admin/settings.php:671
+msgid "Button text"
+msgstr ""
+
+#: views/admin/settings.php:579
+msgid "Featured colors"
+msgstr ""
+
+#: views/admin/settings.php:591 views/admin/settings.php:715
+#: views/admin/settings.php:775
+msgid "Heading background"
+msgstr ""
+
+#: views/admin/settings.php:607 views/admin/settings.php:791
+msgid "Heading text"
+msgstr ""
+
+#: views/admin/settings.php:623
+msgid "Bet event background"
+msgstr ""
+
+#: views/admin/settings.php:639
+msgid "Bet event text"
+msgstr ""
+
+#: views/admin/settings.php:687
+msgid "Leaderboards colors"
+msgstr ""
+
+#: views/admin/settings.php:699
+msgid "Table text"
+msgstr ""
+
+#: views/admin/settings.php:731
+msgid "Odd row background"
+msgstr ""
+
+#: views/admin/settings.php:747
+msgid "Even row background"
+msgstr ""
+
+#: views/admin/settings.php:763
+msgid "Slips colors"
+msgstr ""
+
+#: views/admin/settings.php:807
+msgid "Row background"
+msgstr ""
+
+#: views/admin/settings.php:823
+msgid "Row text"
+msgstr ""
+
+#: views/admin/settings.php:839
+msgid "Subrow background"
+msgstr ""
+
+#: views/admin/settings.php:855
+msgid "Subrow text"
+msgstr ""
+
+#: views/admin/settings.php:875
+msgid "Default odd type"
+msgstr ""
+
+#: views/admin/settings.php:903
+msgid "Only one winning bet option per category?"
+msgstr ""
+
+#: views/admin/settings.php:917
+msgid ""
+"Uncheck this if more than one bet option of same category could be winning. "
+"Otherwise when you mark bet option as winning, the system will auto-mark all "
+"the other bet options of that same category as losing. Fe you should uncheck "
+"this if you are using the auto-importer and its Over/Under category."
+msgstr ""
+
+#: views/admin/settings.php:931
+msgid "Stakes must be whole numbers?"
+msgstr ""
+
+#: views/admin/settings.php:946
+msgid ""
+"Uncheck this if you want to accept decimal numbers (like 3.4, 5.16 and so) "
+"for bet stakes."
+msgstr ""
+
+#: views/admin/settings.php:962
+msgid "Save settings"
+msgstr ""
+
+#: views/admin/sports-and-events.php:9
+msgid "Sports & Events"
+msgstr ""
+
+#: views/admin/sports-and-events.php:13
+msgid "Events"
+msgstr ""
+
+#: views/admin/sports-and-events.php:17 views/admin/sports-and-events.php:75
+msgid "Add event"
+msgstr ""
+
+#: views/admin/sports-and-events.php:83
+msgid "Please add a sport first."
+msgstr ""
+
+#: views/admin/sports-and-events.php:99 views/admin/sports-and-events.php:193
+msgid "Sport"
+msgstr ""
+
+#: views/admin/sports-and-events.php:101 views/admin/sports-and-events.php:195
+msgid "Manage"
+msgstr ""
+
+#: views/admin/sports-and-events.php:133
+msgid "Manage event"
+msgstr ""
+
+#: views/admin/sports-and-events.php:181
+msgid "No events added yet."
+msgstr ""
+
+#: views/admin/sports-and-events.php:207
+msgid "Sports"
+msgstr ""
+
+#: views/admin/sports-and-events.php:211 views/admin/sports-and-events.php:241
+msgid "Add sport"
+msgstr ""
+
+#: views/admin/sports-and-events.php:321
+msgid "No sports added yet."
+msgstr ""
+
+#: views/admin/user-edit-extra-fields.php:7
+msgid "BetPress "
+msgstr ""
+
+#: views/admin/user-edit-extra-fields.php:15
+msgid "BetPress points"
+msgstr ""
+
+#: views/admin/user-edit-extra-fields.php:37
+msgid "BetPress bought points"
+msgstr ""
+
+#: views/shortcodes/bettings.php:143
+msgid "No active bettings at the moment."
+msgstr ""
+
+#: views/shortcodes/buy-points.php:22
+#, php-format
+msgid "Minimal points to buy: %d"
+msgstr ""
+
+#: views/shortcodes/buy-points.php:23
+#, php-format
+msgid "Maximum points to buy: %d"
+msgstr ""
+
+#: views/shortcodes/buy-points.php:24
+#, php-format
+msgid "Your limit: %d"
+msgstr ""
+
+#: views/shortcodes/buy-points.php:31
+msgid "Help"
+msgstr ""
+
+#: views/shortcodes/buy-points.php:34
+msgid "Price"
+msgstr ""
+
+#: views/shortcodes/buy-points.php:61
+msgid "Buy"
+msgstr ""
+
+#: views/shortcodes/featured.php:17
+msgid "Game"
+msgstr ""
+
+#: views/shortcodes/featured.php:79
+msgid "No featured bettings at the moment."
+msgstr ""
+
+#: views/shortcodes/leaderboard.php:9
+#, php-format
+msgid "Leaderboard %s"
+msgstr ""
+
+#: views/shortcodes/leaderboard.php:22
+msgid "#"
+msgstr ""
+
+#: views/shortcodes/leaderboard.php:80
+msgid "<<"
+msgstr ""
+
+#: views/shortcodes/leaderboard.php:90
+msgid "<"
+msgstr ""
+
+#: views/shortcodes/leaderboard.php:106
+msgid ">"
+msgstr ""
+
+#: views/shortcodes/leaderboard.php:116
+msgid ">>"
+msgstr ""
+
+#: views/shortcodes/leaderboard.php:130
+msgid "No results found."
+msgstr ""
+
+#: views/shortcodes/slips.php:11
+#, php-format
+msgid "%s slips"
+msgstr ""
+
+#: views/shortcodes/slips.php:15
+msgid "Submitted"
+msgstr ""
+
+#: views/shortcodes/slips.php:17
+msgid "Stake"
+msgstr ""
+
+#: views/shortcodes/slips.php:49
+#, php-format
+msgid "You don't have any %s slip at the moment."
+msgstr ""
+
+#: views/widget-bet-options.php:35
+msgid "Odd: "
+msgstr ""
+
+#: views/widgets/betslip.php:47
+msgid "stake"
+msgstr ""
+
+#: views/widgets/betslip.php:58
+msgid "Submit"
+msgstr ""
+
+#: widgets/betslip.php:13
+msgid "BetPress Slip"
+msgstr ""
+
+#: widgets/betslip.php:27 widgets/odd-type-switcher.php:24
+msgid "Title"
+msgstr ""
+
+#: widgets/betslip.php:53
+msgid "Show points?"
+msgstr ""
+
+#: widgets/odd-type-switcher.php:13
+msgid "BetPress Odd Type Switcher"
+msgstr ""
