@@ -55,7 +55,7 @@ if ( ! defined('ABSPATH') ) {
         
         <div class="submit-slip">
     
-            <button id="submit-slip-button"><?php esc_attr_e('Submit', 'BetPress'); ?></button>
+            <button id="submit-slip-button"><?php esc_attr_e('Click Here', 'BetPress'); ?></button>
             
         </div>
         
